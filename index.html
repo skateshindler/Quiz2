@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>QUIZ APP</title>
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            
+            <div class="nav navbar-nav navbar-right" id="time">Time: 00</div>
+        
+        </div>
+    </nav>  
+    
+    <style>
+        body {
+          background-image: url('bg.jpg');
+        }
+        </style>
+        <div class="row">
+            <div class="col-md-12 col-lg-10" id="master-div">
+                <h2 id="question"></h2>
+                <div id="answers">
+                    <button type="button" class="btn btn-dark" id="answerOne"></button>
+                    <button type="button" class="btn btn-dark" id="answerTwo"></button>
+                    <button type="button" class="btn btn-dark" id="answerThree"></button>
+                    <button type="button" class="btn btn-dark" id="answerFour"></button>
+                </div>
+                <div class="col-xs-12 col-sm-8 col-md-6" id="buttonDiv"><button type="button" class="btn btn-dark"
+                        id="startButton">Start
+                        Quiz</button>
+                    <div id="message">
+                        <h1>Coding Quiz Challenge</h1>
+                        <p>Answer the sequence of questions. Beware, you have 60 seconds!!!!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+    </div>
+</body>
+
+</html>

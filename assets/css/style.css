@@ -1,0 +1,98 @@
+Skip to content
+Why GitHub? 
+Enterprise
+Explore 
+Marketplace
+Pricing 
+Search
+
+Sign in
+Sign up
+WilliamWhite86
+/
+QuizApplication
+100
+ Code Issues 0 Pull requests 0 Projects 0 Security Insights
+Join GitHub today
+GitHub is home to over 40 million developers working together to host and review code, manage projects, and build software together.
+
+QuizApplication/assets/css/style.css
+@WilliamWhite86 WilliamWhite86 added responsive syling using bootstrap, added questions, fixed minor…
+a8ea9bc on Oct 20, 2019
+63 lines (48 sloc)  700 Bytes
+  
+#answerOne{
+    background-color: #563d7c;
+}
+
+#answerTwo{
+    background-color: #563d7c;
+}
+
+#answerThree{
+    background-color: #563d7c;
+}
+
+#answerFour{
+    background-color: #563d7c;
+}
+
+#startButton{
+    background-color: #563d7c;
+    text-align: center;
+}
+
+#buttonDiv{
+    text-align: center;
+}
+
+#answers{
+    text-align: center;
+}
+
+
+#highscore-link{
+    color: black;
+}
+
+#question {
+    text-align: center;
+}
+
+#master-div {
+    text-align: -webkit-center;
+}
+
+#score{
+    margin: 15px 15px 15px 15px;
+}
+
+#input-field {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+#go-back {
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+#clear-highscores {
+    margin-top: 15px;
+}
+
+td {
+    padding: 5px;
+}
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
